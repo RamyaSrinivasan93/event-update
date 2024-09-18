@@ -1,0 +1,50 @@
+.wrapper {
+    display: grid;
+  }
+  .eve{
+    text-align:center;
+  }
+  .wrapper > div {
+     padding: 1em;
+  }
+  .img{
+    
+    float: left;
+  }
+  .box {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* .ntm{
+    padding: 10px;
+    margin-top: 10px;
+   
+  } */
+  .firstname{
+    font-weight: bold;
+    padding-right: 20px;
+    margin-top: 20px;
+  }
+  input[type=text] 
+  {
+    width: 80%;
+    padding: 7px;
+   
+    margin: 8px 0;
+    box-sizing: border-box;
+  }input[type=number] 
+  {
+    width: 80%;
+    padding: 7px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .form{
+    float:right;
+    width:50%;
+  }
+  .card{
+    margin-top: 30px;
+  }
+  
+  
